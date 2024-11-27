@@ -65,10 +65,12 @@ You can install Redis using the package manager (e.g., brew install redis on mac
 
 ### 5. Apply Migrations
 Run Django migrations to set up your database:
+python manage.py migrate
+
+### 6. Run the Development Server
+Start the Django development server:
 python manage.py runserver
 
 Your project should now be running at http://127.0.0.1:8000/.
-
-
 
 
