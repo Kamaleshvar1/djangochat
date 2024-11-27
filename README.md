@@ -39,13 +39,13 @@ On Windows:
 On macOS/Linux:
 source .venv/bin/activate
 
-###3. Install Dependencies
+### 3. Install Dependencies
 
 Install the required packages:
 
 pip install -r requirements.txt
 
-###4. Install and Run Redis
+### 4. Install and Run Redis
 You need Redis to act as a channel layer for Django Channels.
 
 Option 1: Running Redis via Docker
@@ -63,7 +63,7 @@ sudo service redis-server start
 Option 3: Running Redis on macOS/Linux
 You can install Redis using the package manager (e.g., brew install redis on macOS) or by downloading and running Redis natively.
 
-###5. Apply Migrations
+### 5. Apply Migrations
 Run Django migrations to set up your database:
 python manage.py runserver
 
